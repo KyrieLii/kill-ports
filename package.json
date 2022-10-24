@@ -1,0 +1,33 @@
+{
+  "name": "kill-all-ports",
+  "version": "0.0.1",
+  "description": "A simple cli script to kill process ports.",
+  "main": "./index.js",
+  "bin": {
+    "kill-ports": "./index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyrieLii/kill-ports.git"
+  },
+  "keywords": [
+    "node",
+    "cli",
+    "kill",
+    "ports"
+  ],
+  "author": "kyli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KyrieLii/kill-ports/issues"
+  },
+  "homepage": "https://github.com/KyrieLii/kill-ports#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.4",
+    "typescript": "^4.8.4"
+  }
+}
